@@ -1,0 +1,23 @@
+# Requirements for COLMAP + Rerun Notebook Demo
+# 
+# Install with: pip install -r notebook_requirements.txt
+# or for notebooks: !pip install -r notebook_requirements.txt
+
+# Core Rerun SDK with notebook support
+rerun-sdk[notebook]>=0.15.1
+
+# Basic data manipulation
+numpy>=1.20.0
+pillow>=8.0.0
+
+# Optional: for image processing (if needed by your visualization code)
+opencv-python>=4.5.0
+
+# Optional: for enhanced notebook experience
+jupyter>=1.0.0
+ipywidgets>=7.6.0
+
+# Optional: for Google Colab compatibility
+# (these are usually pre-installed in Colab)
+matplotlib>=3.0.0
+scipy>=1.7.0 
